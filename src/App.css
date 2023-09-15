@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  height: auto;
+}
+
+.App, #stats, .stat-types {
+  display: flex;
+}
+
+.App, .stat-types {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  font-size: large;
+  font-weight: 500;
+}
+
+ul {
+  text-align: justify;
+  padding-left: 40%;
+}
+
+.stat-types {
+  flex: 1 1 0;
+}
+
+h1 {
+  margin: 5% 40%;
+  border-bottom: 3px solid darkolivegreen;
+  color: maroon;
+}
+
+h3, ul {
+  color: maroon;
+}
+
+h2 {
+  color: darkolivegreen;
+}
+
+html {
+  background-color: #FAF9F6;
+}
+
